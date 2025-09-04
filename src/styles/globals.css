@@ -1,10 +1,9 @@
-
 @import url("https://use.typekit.net/ets4woh.css");
 @import url("https://use.typekit.net/cym7cvh.css");
 :root {
   --font-family-primary: "miller-headline", serif;
   --font-family-secondary: system-ui, -apple-system, "Segoe UI", Roboto,
-  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
@@ -46,8 +45,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
-
-
 
 /* bootstrapcontainercss */
 .container,
@@ -110,9 +107,8 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.p-0
- {
-    padding: 0 !important;
+.p-0 {
+  padding: 0 !important;
 }
 /* .row>* {
     flex-shrink: 0;
@@ -130,6 +126,15 @@ body {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.align-items-center {
+  align-items: center !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.flex-column {
+  flex-direction: column !important;
 }
 @media (min-width: 768px) {
   .col-md-3 {
@@ -171,7 +176,7 @@ body {
   justify-content: flex-end !important;
 }
 /* bootstrapcontainercss */
-li{
+li {
   list-style: none;
 }
 h2 {
@@ -961,6 +966,7 @@ span.author {
   margin: auto;
   position: relative;
 }
+
 .footer .ft-pd {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -978,6 +984,19 @@ span.author {
   height: 100%;
   /* filter: invert(1); */
   /* filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(6804%) hue-rotate(1deg) brightness(97%) contrast(115%); */
+}
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 .footer .nav-item-title {
   color: black;
@@ -3650,8 +3669,8 @@ a {
 
 /* gallerywidget2 */
 @supports (aspect-ratio: 1) {
-    body {
-        --framer-aspect-ratio-supported: auto;
-    }
+  body {
+    --framer-aspect-ratio-supported: auto;
+  }
 }
 /* gallerywidget2 */

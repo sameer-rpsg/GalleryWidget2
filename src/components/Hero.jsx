@@ -25,7 +25,7 @@ const Hero = ({
                   <div
                     className={`${style.hoverDiv} ${style.template1CustomHeight}`}
                   >
-                    <img src="https://cdn.esquireindia.co.in/article/2025-07-18T07%3A06%3A57.332Z-LEAD.jpg" alt="" />
+                    <img src="https://assets.vogue.in/photos/68abf0510960f38268ba4de9/master/w_1600,c_limit/Copy%20of%20Anjali%20Bhimrajka%202022%200084%20(1).jpg" alt="" />
                     {/* <Image
                       src={heroImg ?? ""}
                       fill
@@ -50,7 +50,7 @@ const Hero = ({
                   {hasHtmlTags(courtesy) ? htmlParser(courtesy) : courtesy}
                 </span>
               )} */}
-              <span className={style.courtesy}>Mercedes-Benz E-Class</span>
+              <span className={style.courtesy}>Vaidehi Joshi</span>
             </div>
             {/* <StaticAds
               adUnits={[
@@ -89,12 +89,12 @@ const Hero = ({
               <li className={style.breadcrumItem}>
                 <Link href={""} style={{ textDecoration: "underline" }}>
                 <span>
-                  Tech & Auto</span></Link>
+                  Style</span></Link>
               </li>
               <li className={style.breadcrumItem}>
                 <Link href={""} style={{ textDecoration: "underline" }}>
                 <span>
-                  Cars & Bikes</span></Link>
+                  Fashion</span></Link>
               </li>
             </ol>
           </div>

@@ -174,13 +174,13 @@ font-size: 12px !important;
 .GalleryImgCntr {
   align-content: center;
   align-items: center;
-  aspect-ratio: 1.6335797254487856 / 1;
+  /* aspect-ratio: 1.6335797254487856 / 1; */
   display: flex;
   flex: 3 0 0px;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 10px;
-  height: var(--framer-aspect-ratio-supported, 122px);
+  /* height: var(--framer-aspect-ratio-supported, 122px); */
   justify-content: center;
   padding: 0;
   position: relative;
@@ -192,11 +192,14 @@ font-size: 12px !important;
   transform: perspective(1200px) scale(0.25);
   transform-origin: 100% 0% 0;
   cursor: none;
+  height: auto;
 }
 .GalleryImgCntrInner {
-  position: absolute;
+  position: relative;
   border-radius: inherit;
   inset: 0px;
+   width: 100%;
+  height: 100%;
 }
 .GalleryImgCntrInner img {
   display: block;

@@ -96,12 +96,13 @@ const Article = () => {
                     <div className="col-md-12">
                       <div className="contentSec">
                         <h1 className="heading">
-                          The Mercedes-Benz E-Class: First Among Cars And A
-                          Benchmark In Luxury
+                          Two fine jewellery ateliers that are reimagining
+                          Indian heritage
                         </h1>
                         <p className="subheading">
-                          For Esquire India’s Auto Issue, we look at what
-                          defines aspiration on Indian roads today{" "}
+                          For Esquire India’s Auto Issue, Bridging past and
+                          present, these ateliers are crafting contemporary
+                          heirlooms rooted in India’s rich design legacy.
                         </p>
                         <div className="authorSec">
                           <span className="author">
@@ -123,35 +124,36 @@ const Article = () => {
                       <div className="content">
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            COCOONED IN THE COMFORT OF THE BACK SEAT of the{" "}
+                            From rare gemstones and distinctive design to a
                           </span>
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.esquireindia.co.in/tag/mercedes"
                           >
-                            <span>Mercedes</span>
+                            <span></span>
                           </a>
                           <span>
-                            -Benz E-Class, wafting smoothly towards the airport,
-                            I find myself enveloped by the warm glow of the
-                            ambient lighting, immersed in the sheer indulgence
-                            that surrounds me. It’s in moments like these—quiet,
-                            uninterrupted—that one truly absorbs the brilliance
-                            of this machine.{" "}
+                            hundred years of legacy craftsmanship, Anjali
+                            Bhimrajka Fine Jewels and Mehta & Sons create
+                            bespoke creations that tell stories across
+                            generations
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            As I glance around, soaking in the finely appointed
-                            cabin, I’m struck once again by just how
-                            awe-inspiring it is to sit in the back seat of an
-                            E-Class. It’s a sensation that never fades, no
-                            matter how many times I’ve experienced it. In India,
-                            owning a car bearing the iconic three-pointed star
-                            has long been seen as a symbol of success, prestige
-                            and aspiration.
+                            Jewellery is a reflection of the wearer. The
+                            necklace you pick to wear on a special day to the
+                            simple studs that adorn your ears on the daily—every
+                            trinket you choose tells your story. Two
+                            distinguished jewellery brands, Anjali Bhimrajka
+                            Fine Jewels and Mehta & Sons, celebrate this
+                            individuality with their pieces—the unique cuts,
+                            gemstones and designs ensuring that there is
+                            something for every discerning customer. Scroll
+                            further to know more about the two brands, their
+                            design sensibilities, their founders and more.
                           </span>
                         </p>
                         <div>
@@ -175,7 +177,7 @@ const Article = () => {
                                   width: "100%",
                                   height: "auto",
                                 }}
-                                src="https://cdn.esquireindia.co.in/editor-images/2025-07-18T07%3A06%3A33.290Z-Inline1.jpg"
+                                src="https://assets.vogue.in/photos/68abf0c84c404c23c74f6cdd/2:3/w_1920,c_limit/IMG_2047_1.jpg"
                               />
                               <div className="photoBy">
                                 <span className="caption" />
@@ -186,47 +188,22 @@ const Article = () => {
                         </div>
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            Among all the models in the Mercedes-Benz lineup,
-                            the E-Class holds a special place in this narrative.
-                            It’s not just a car—it’s a milestone. Over the last
-                            30 years, more than 60,000 units of the E-Class have
-                            found homes across the country. While that number
-                            might not sound massive in broader automotive terms,
-                            it is quite extraordinary for a luxury model in a
-                            market that’s only recently embraced premium
-                            mobility at scale.{" "}
+                          Since its inception in 2005, Anjali Bhimrajka Fine Jewels has become synonymous with intricate craftsmanship, rare gemstones, and distinctive design. From heirloom classics to contemporary statements, each jewel is brought to life using a curated palette of the world’s finest treasures—Golconda diamonds, Colombian emeralds, Burmese rubies, Basra pearls, Kashmir sapphires, Paraiba tourmalines, and Baltic amber, set in 18K and 22K gold, often finished with unique polishes and textures.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            The E-Class has consistently been Mercedes-Benz
-                            India’s best-seller and its success only surged
-                            further when the long wheelbase (LWB) variant was
-                            introduced in 2017—a configuration developed
-                            specifically for markets like India and China, where
-                            back-seat comfort reigns supreme. With this, the
-                            E-Class redefined luxury travel for the
-                            chauffeur-driven elite and widened its appeal to
-                            entrepreneurs and families alike. Now, in its latest
-                            avatar unveiled in October 2024, the E-Class raises
-                            the bar yet again.{" "}
+                           The founder, Dr. Anjali Bhimrajka’s journey into fine jewellery was shaped by artistic instinct and passion. With academic accolades including a Ph.D. in Alternative Medicine, Dr. Bhimrajka is a true polymath. She turned her childhood fascination into a lifelong calling, taking herself to the Gemological Institute of America, where she trained in jewellery design and diamond grading—formally setting the foundation for her namesake label.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            The newest generation is larger, smarter and more
-                            luxurious than ever. The highlight variant, the E
-                            450 4MATIC, combines power and panache. Its
-                            3.0-litre inline-six turbocharged petrol engine with
-                            mild-hybrid tech delivers a punchy 381 hp and 500 Nm
-                            of torque, ensuring that those who enjoy being
-                            behind the wheel aren’t left wanting.{" "}
+                          Every jewel at Anjali Bhimrajka Fine Jewels begins with ethically sourced diamonds and gemstones—selected not only for their brilliance, but for their integrity. Age-old techniques are not just preserved—they are reinterpreted through a modern lens, creating designs that feel timeless yet distinctly contemporary.
                           </span>
                         </p>
-                          <GalleryWidget2/>
-
+                        <GalleryWidget2 />
 
                         <div className="StoriesInfo_left_innercntr-full-width">
                           <div
@@ -319,33 +296,16 @@ const Article = () => {
                         </div>
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            It whips you to 100 in just 4.5 seconds. Paired with
-                            Mercedes’ 9G-TRONIC automatic transmission and
-                            4MATIC all-wheel drive, it offers a buttery smooth,
-                            refined but punchy drive. But of course, the back
-                            seat is where the E-Class LWB truly dazzles. The
-                            rear cabin is nothing short of a sanctuary. In the
-                            new generation, the seats recline up to 36 degrees,
-                            include extendable thigh support and come with “boss
-                            mode,” allowing the rear passenger to push the front
-                            seat forward with the touch of a button, fully
-                            stretching out in ultimate relaxation.{" "}
+                          One of the most unparalleled joys of being a woman is dressing up for an event with your besties or them helping you pick the best outfit for a date night. Think swatching different shades of lipstick, debating the shape of your winged eyeliner or bickering over the hair straightener while pop music plays in the background—these are memories that stay forever. This year’s edition of SSBeauty & Shoppers Stop’s beauty celebration, ShowStoppers’25, offers an opportunity to relive these memories.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            Despite the rise of SUVs, the E-Class continues to
-                            embody timeless elegance. Its stately design,
-                            complete with a chrome-heavy grille, sleek LED DRLs
-                            and a flowing silhouette, commands attention
-                            wherever it goes. Arriving in an E-Class still
-                            elicits a head-turn, a held-open door and an almost
-                            ceremonial welcome from onlookers who’ve long dreamt
-                            of being in your seat.
+                           ShowStoppers‘25 is a 45-day celebration of leading premium and luxury beauty brands with creative activations, exclusive experiences and irresistible offers designed for all beauty lovers. From August 1 to September 15, the brand invites beauty enthusiasts across India to explore the world of beauty, get inspired, and celebrate their love for makeup, skincare and fragrances. An interactive, in-store pop-up at Inorbit Mall, Malad (Mumbai), will offer immersive brand experiences—encouraging self-expression and exploring India’s connection with beauty.
                           </span>
                         </p>
-                        <div>
+                        {/* <div>
                           <div className="ad-flex-all">
                             <div
                               id="div-gpt-ad-stories-middle-12"
@@ -354,17 +314,11 @@ const Article = () => {
                               style={{ margin: "30px auto" }}
                             />
                           </div>
-                        </div>
+                        </div> */}
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            As I lean back, fully reclined and insulated from
-                            the chaos outside, I’m reminded again why this car
-                            has endured. Few vehicles can blend tradition,
-                            innovation, and indulgence so effortlessly. The
-                            Mercedes-Benz E-Class isn’t just transportation.
-                            It’s an experience, a status symbol, and for many, a
-                            coveted car.
+                            The festival will also offer an exciting blend of interactive sessions. Think makeover marathons, masterclasses, personalised skincare consultations, try-ons and a chance to discover fresh fragrances. Beauty enthusiasts can look forward to exclusive offers from beauty brands like Lancôme, Giordano, Shiseido, LOVETC, Joyology Beauty, Clarins, Yves Saint Laurent, Armani, and NARS, among others. They can discover curated looks, limited-time beauty kits, and trendy products
                           </span>
                         </p>
                         <div>
@@ -391,20 +345,17 @@ const Article = () => {
                                   width: "100%",
                                   height: "auto",
                                 }}
-                                src="https://cdn.esquireindia.co.in/editor-images/2025-07-18T07%3A08%3A38.725Z-1Ferrari%20296%20GTB%20%C3%AF%C2%80%C2%A2%20GTS.jpg"
+                                src="https://assets.vogue.in/photos/689037496c456fd3f3b4bf2f/2:3/w_1920,c_limit/Showstopper'25_25-06-25.0662%20copy.jpg"
                               />
                               <div className="photoBy">
                                 <span className="caption">
-                                  Ferrari 296 GTB / GTS{" "}
+                                   Vaidehi Joshi
                                 </span>
                                 <span className="courtesy" />
                               </div>
                             </div>
                           </div>
                         </div>
-                      
-                        
-                        
                       </div>
                     </div>
                   </div>

@@ -9,39 +9,45 @@ gsap.registerPlugin(ScrollTrigger);
 
 const galleryData = [
   {
-    title: "Sunset Beach",
+    title: "Fashion",
+    desc:"celeb",
     imageUrl:
-      "https://framerusercontent.com/images/XgnuKppjgSyRrt3c9nm9nuJAFE.jpg",
+      "https://assets.vogue.in/photos/68b0286f5db6cec5662cebf5/master/w_1600,c_limit/Copy%20of%20Anjali%20Bhimrajka%202022%200412.jpg",
     link: "/sunset",
   },
   {
-    title: "Forest Path",
+    title: "Fashion",
+    desc:"celeb",
     imageUrl:
-      "https://framerusercontent.com/images/SoxWVcoE2JisAPtQspxmMPTJhEg.jpg",
+      "https://assets.vogue.in/photos/68b917307f9fcb50122e3a1c/1:1/pass/undefined",
     link: "/forest",
   },
   {
-    title: "City Lights",
+    title: "Fashion",
+    desc:"celeb",
     imageUrl:
-      "https://framerusercontent.com/images/IpGEVmlbLGeaNaABZkayk9Cs.jpg",
+      "https://assets.vogue.in/photos/68ad92d095a1bc0c6918fccb/master/w_1600,c_limit/Mehta&Sons2025%2000858%20.jpg",
     link: "/city",
   },
   {
-    title: "Mountain Range",
+    title: "Fashion",
+    desc:"celeb",
     imageUrl:
-      "https://framerusercontent.com/images/3EAtjF5fPR3dm9Pwh84FpFsGPI.jpg",
+      "https://assets.vogue.in/photos/68ad92c3261e0a054c000504/master/w_1600,c_limit/Mehta&Sons2025%2000248%20(1).jpg",
     link: "/mountains",
   },
   {
-    title: "Ocean View",
+    title: "Fashion",
+    desc:"celeb",
     imageUrl:
-      "https://framerusercontent.com/images/tZNk5u2gae7RvpOk3adI9ODVrEk.jpg",
+      "https://assets.vogue.in/photos/6847ef640285e99a325555bf/2:3/w_1920,c_limit/Sharon_4155%20Blur%20CMYK%20copy.jpg",
     link: "/ocean",
   },
   {
-    title: "Desert Dunes",
+    title: "Fashion",
+    desc:"celeb",
     imageUrl:
-      "https://framerusercontent.com/images/hm87nKco0qMSAGXgTnHczT6TsY.jpg",
+      "https://media.ceros.com/cn-india/images/2025/06/09/1c79c8bd84b4980ca93ecbf575fd837c/sharon-4653-blur.jpg?imageOpt=1&fit=bounds&width=540",
     link: "/desert",
   },
 ];
@@ -142,8 +148,8 @@ useEffect(() => {
               <div className={styles.GalleryListCntrLeftText}>
                 {/* <h1>{item.title}</h1> */}
                 <div className={styles.Gallerytextcntrinner}>
-                  <h2 className={styles.galleyTitle}>Nike Revolution</h2>
-                  <p className={styles.gallerypara}>Nike</p>
+                  <h2 className={styles.galleyTitle}>{item.title}</h2>
+                  <p className={styles.gallerypara}>{item.desc}</p>
                 </div>
                 <div className={styles.ViewgalleryBtnWrapper}>
                   <Link href={""} className={styles.ViewgalleryBtnInner}>
