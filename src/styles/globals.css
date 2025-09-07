@@ -62,6 +62,10 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.col-md-12 {
+  flex: none;
+  width: 100%;
+}
 @media (min-width: 576px) {
   .container,
   .container-sm {
