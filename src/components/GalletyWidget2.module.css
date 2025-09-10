@@ -119,6 +119,7 @@
   background-color: rgb(244, 244, 244);
   border-radius: 30px;
   opacity: 1;
+  border: 1px solid #000;
 }
 .ViewgalleryBtnInnercntr {
   align-content: center;
